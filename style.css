@@ -19,7 +19,7 @@
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #5b5b5b;
+    background-color: #000;
 }
 
 /* hero background image */
@@ -29,6 +29,8 @@
     background: url("images/Grand-Canyon-by-night.webp");
     background-size: cover;
     position: relative;
+    background-color: #000;
+
 }
 /* text css above hero image*/
 .hero_title {
