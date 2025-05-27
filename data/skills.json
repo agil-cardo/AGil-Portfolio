@@ -2,6 +2,7 @@
     {
         "image": "html-css.jpg",
         "title": "HTML - CSS",
+        "alt": "${item.html} ${item.css}",
         "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
     },
     {
@@ -20,7 +21,7 @@
         "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
     },
     {
-        "image": "optimisation-et-debug.png",
+        "image": "Performance-Image.png",
         "title": "Optimisation et debug",
         "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
     },
