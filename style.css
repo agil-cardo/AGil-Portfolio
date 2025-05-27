@@ -30,6 +30,7 @@
     background-size: cover;
     position: relative;
     background-color: #000;
+    backdrop-filter: contrast(0.8);
 
 }
 /* text css above hero image*/
