@@ -23,6 +23,7 @@
     backdrop-filter: contrast(0.8);
 }
 
+
 /* hero background image */
 .bgimage {
     height: 100vh;
@@ -34,6 +35,9 @@
     backdrop-filter: contrast(0.8);
 
 }
+/*photo credit ameer-basheer*/
+
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -100,6 +104,77 @@
 }
 .contactColumn i {
     color: #198754;
+}
+
+/* contact form */
+/* Responsive Contact Form Styles */
+/* Container and columns */
+.contactContent {
+    padding: 2rem 0;
+}
+.contactColumn {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    margin-bottom: 2rem;
+    padding: 2rem 1.5rem;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form styles */
+#contactForm {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#contactForm .form-label {
+    font-weight: 500;
+}
+#contactForm .form-control,
+#contactForm textarea {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+#contactForm textarea {
+    resize: vertical;
+}
+#contactForm .btn {
+    width: 100%;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 0.75rem;
+}
+
+/* Error message styling */
+#formError {
+    max-width: 400px;
+    margin: 1rem auto 0 auto;
+    text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .contactColumn {
+        min-height: unset;
+        margin-bottom: 1.5rem;
+    }
+}
+@media (max-width: 767px) {
+    .contactContent {
+        padding: 1rem 0.5rem;
+    }
+    .contactColumn {
+        padding: 1.5rem 0.5rem;
+    }
+    #contactForm {
+        max-width: 100%;
+    }
 }
 
 /* footer */

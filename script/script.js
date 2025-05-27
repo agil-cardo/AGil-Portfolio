@@ -41,7 +41,7 @@ function createSkillsFromJSON() {
                     <div class="card skillsText">
                         <div class="card-body">
                             <img src="./images/${item.image}" />
-                            <h4 class="card-title mt-3">${item.title}</h4>
+                            <h3 class="card-title mt-3">${item.title}</h3>
                             <p class="card-text mt-3">${item.text}</p>
                         </div>
                     </div>
@@ -98,7 +98,59 @@ function createPortfolioFromJSON() {
             });
         });
 }
+//security contact formular
+// Function to handle form submission and validation
 
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("contactForm");
+
+    form.addEventListener("submit", function (e) {
+        // Get form values
+        const name = sanitizeInput(document.getElementById("name").value);
+        const email = sanitizeInput(document.getElementById("email").value);
+        const message = sanitizeInput(document.getElementById("message").value);
+
+        // Simple email regex
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        // Remove previous error
+        let errorDiv = document.getElementById("formError");
+        if (errorDiv) errorDiv.remove();
+
+        // Validation
+        let errors = [];
+        if (!name) errors.push("Le nom est requis.");
+        if (!email || !emailRegex.test(email)) errors.push("Un email valide est requis.");
+        if (!message) errors.push("Le message est requis.");
+
+        if (errors.length > 0) {
+            e.preventDefault();
+            showError(errors.join("<br>"));
+        }
+    });
+
+    function sanitizeInput(str) {
+        // Basic sanitization to prevent HTML injection
+        return str.replace(/[<>&"'`]/g, function (c) {
+            return ({
+                '<': '&lt;',
+                '>': '&gt;',
+                '&': '&amp;',
+                '"': '&quot;',
+                "'": '&#39;',
+                '`': '&#96;'
+            })[c];
+        });
+    }
+
+    function showError(msg) {
+        const div = document.createElement("div");
+        div.id = "formError";
+        div.className = "alert alert-danger mt-3";
+        div.innerHTML = msg;
+        form.parentNode.insertBefore(div, form);
+    }
+});
 // Call the functions to execute the code
 handleNavbarScroll();
 handleNavbarCollapse();

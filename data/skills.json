@@ -10,9 +10,9 @@
         "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
     },
     {
-        "image": "react.jpg",
-        "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état"
+        "image": "python-logo.png",
+        "title": "Python",
+        "text": "Création de scripts Python, manipulation de données, utilisation de bibliothèques comme Pandas et NumPy"
     },
     {
         "image": "gestion-de-projet.png",
@@ -27,6 +27,21 @@
     {
         "image": "test.png",
         "title": "Test",
-        "title ": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+    },
+    {
+        "image": "git-logo.png",
+        "title": "Git",
+        "text": "Utilisation de Git pour le versioning, gestion des branches, résolution de conflits"
+    },
+    {
+        "image": "logo-docker.png",
+        "title": "Docker",
+        "text": "Création et gestion de conteneurs, utilisation de Docker Compose pour orchestrer des applications multi-conteneurs"
+    },
+    {
+        "image": "accessibilite-numerique.webp",
+        "title": "Accessibilité numérique",
+        "text": "Conformité aux normes d’accessibilité, utilisation d’outils d’audit d’accessibilité, mise en œuvre de bonnes pratiques"
     }
 ]
