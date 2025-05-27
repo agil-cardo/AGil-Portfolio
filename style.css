@@ -20,6 +20,7 @@
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: #000;
+    backdrop-filter: contrast(0.8);
 }
 
 /* hero background image */
