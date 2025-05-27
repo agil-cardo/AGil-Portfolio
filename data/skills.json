@@ -2,7 +2,7 @@
     {
         "image": "html-css.jpg",
         "title": "HTML - CSS",
-        "alt": "${item.html} ${item.css}",
+        "alt": "${item.title} ${item.title}",
         "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
     },
     {
