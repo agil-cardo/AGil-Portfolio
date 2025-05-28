@@ -1,3 +1,30 @@
+function animateTitle() {
+    const title = document.getElementById("hero-type");
+    const text = "Hi, there!".split("");
+    let i = 0;
+
+    const getRandomInterval = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+
+    function typeChar() {
+        title.textContent += text[i];
+        i++;
+        if (i >= text.length) { // If we reach the end of the text, reset the index
+            setTimeout(() => {
+                title.textContent = "";
+                i = 0;
+                typeChar();
+            }, 2000);
+        }
+        else {
+            setTimeout(typeChar, getRandomInterval(100, 500));
+        }
+    }
+
+    typeChar();
+}
+animateTitle();
+
+
 // Function to add the "navbarDark" class to the navbar on scroll
 function handleNavbarScroll() {
     const header = document.querySelector(".navbar");

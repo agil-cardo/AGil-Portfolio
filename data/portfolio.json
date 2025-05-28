@@ -2,19 +2,21 @@
     {
         "image": "image1.png",
         "title": "image du projet site de produits technologiques",
-        "alt": "${item.title} ${item.title}",
+        "alt": "image du projet site de produits technologiques",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": "#"
     },
     {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "Dojo-de-Manas.png",
+        "title": "Creation en WordPress du site Internet",
+        "alt": "Logo du dojo de Manas, dojo d'aikido",
+        "text": "WebMaster du site, animation des réseaux sociaux, création de contenu",
+        "link": "https//dojodemanas.com"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
+        "alt": "image d'un projet en Python",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": "#"
     }
