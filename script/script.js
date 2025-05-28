@@ -107,7 +107,7 @@ function createPortfolioFromJSON() {
                         <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${item.text}</p>
                         <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success">Lien</a>
+                            <a href="${item.link}" class="btn btn-success target="_blank" rel="noopener noreferrer">Lien</a>
                         </div>
                     </div>
                 </div>
