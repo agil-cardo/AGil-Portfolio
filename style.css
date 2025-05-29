@@ -17,6 +17,10 @@
     padding-bottom: 4rem;
 }
 
+.navbar-brand {
+    font-size: 20.5rem;
+    font-weight: bold;
+}
 .navbarScroll {
     background-color: #000; /* Fond noir pour la navbar */
 }
