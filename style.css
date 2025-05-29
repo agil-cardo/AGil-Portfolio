@@ -17,6 +17,10 @@
     padding-bottom: 4rem;
 }
 
+.navbarScroll {
+    background-color: #000; /* Fond noir pour la navbar */
+}
+
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: #000;
