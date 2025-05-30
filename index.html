@@ -78,7 +78,8 @@
                     <p>Maraîcher le jour, développeur web la nuit, je cultive aussi bien les jardins que les lignes de
                         code.</p>
                     <p>Curieux et passionné par la technologie, j’aime apprendre sans cesse et relever de nouveaux
-                        défis. Je suis actuellement à la recherche d’une opportunité en tant que développeur web.</p>
+                        défis. Je suis actuellement à la recherche d’une opportunité en tant que développeur web et
+                        <b>Testeur Logiciel</b>.</p>
                     <p>Ce portfolio crée par OpenClass et moi même, est le fruit de mon parcours :</p>
                     <p>il reflète mon travail, mes compétences et mon envie de partager. J’espère qu’il saura vous
                         toucher !</p>
@@ -121,17 +122,20 @@
                     <form id="contactForm" action="#" method="post">
                         <div class="mb-3">
                             <label for="name" class="form-label">Nom</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
+                            <input type="text" class="form-control" id="name" name="name" data-cy="contact-name"
+                                required>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
+                            <input type="email" class="form-control" id="email" name="email" data-cy="contact-email"
+                                required>
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            <textarea class="form-control" id="message" name="message" data-cy="contact-message"
+                                rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                        <button type="submit" class="btn btn-primary" data-cy="contact-send-btn">Envoyer</button>
                     </form>
                 </div>
             </div>
