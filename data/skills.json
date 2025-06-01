@@ -1,18 +1,18 @@
 [
     {
-        "image": "html-css.jpg",
+        "image": "html-css.webp",
         "title": "HTML et CSS",
         "alt": "logo de HTML et CSS",
         "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
     },
     {
-        "image": "js.jpg",
+        "image": "js.webp",
         "title": "Javascript",
         "alt": "le logo du langage javascript",
         "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
     },
     {
-        "image": "python-logo.png",
+        "image": "python-logo.webp",
         "title": "Python",
         "alt": "Logo du langage python",
         "text": "Création de scripts Python, manipulation de données, utilisation de bibliothèques comme Pandas et NumPy"
@@ -24,25 +24,25 @@
         "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
     },
     {
-        "image": "Performance-Image.png",
+        "image": "Performance-Image.webp",
         "title": "Optimisation et Debug",
         "alt": "image qui represent Optimisation et debug d'application",
         "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
     },
     {
-        "image": "test.png",
+        "image": "test.webp",
         "title": "Tests",
         "alt": "image qui represent les Tests de software",
         "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
     },
     {
-        "image": "git-logo.png",
+        "image": "git-logo.webp",
         "title": "Git",
         "alt": "le logo de gestionnaire de versionnins Git",
         "text": "Utilisation de Git pour le versioning, gestion des branches, résolution de conflits"
     },
     {
-        "image": "logo-docker.png",
+        "image": "logo-docker.webp",
         "title": "Docker",
         "alt": "le logo de Docker",
         "text": "Création et gestion de conteneurs, utilisation de Docker Compose pour orchestrer des applications multi-conteneurs"
